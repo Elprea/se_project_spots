@@ -11,23 +11,23 @@
 
 **Intro**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+- This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
 
 **Technologies used**
 
-Language: HTML & CSS
-Formatting: BEM
+- Language: HTML & CSS
+- Formatting: BEM
 
 **Project features**
 
 ![Front page](/images/front_page.png)
-Desktop View - 1320px or more
+- Desktop View - 1320px or more
 
 ![Tablet view](/images/tablet_view.png)
-Tablet View - 630px to 1320px
+- Tablet View - 630px to 1320px
 
 ![Mobile view](/images/mobile_view.png)
-Mobile View - 630px or less
+- Mobile View - 630px or less
 
 **Github link**
 
