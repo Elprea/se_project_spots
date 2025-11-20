@@ -35,7 +35,7 @@ Mobile View - 630px or less
 
 **Project pitch**
 
-- [Link to project pitch]()
+- [Link to project pitch](https://www.loom.com/share/6d4bf3fb1d93449c9b8c969ac736b3ce)
 
 **Figma**
 
