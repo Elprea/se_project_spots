@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Spots project" />
-    <meta name="author" contents="Elprea" />
-    <meta name="keywords" contents="Spots, Project, HTML, CSS" />
+    <meta name="author" content="Elprea" />
+    <meta name="keywords" content="Spots, Project, HTML, CSS" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Spots</title>
@@ -123,12 +123,12 @@
         <div class="modal__container">
           <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">Edit Profile</h2>
-          <form action="" class="modal__form">
+          <form class="modal__form">
             <label for="profile-name-input" class="modal__label">Name
-              <input id="profile-name-input" type="text" class="modal__input" placeholder="Type your name">
+              <input id="profile-name-input" type="text" class="modal__input" placeholder="Type your name" required>
             </label>
             <label for="profile-description-input" class="modal__label">Description
-              <input id="profile-description-input" type="text" class="modal__input" placeholder="Describe yourself">
+              <input id="profile-description-input" type="text" class="modal__input" placeholder="Describe yourself" required>
             </label>
             <button type="submit" class="modal__save-btn">Save</button>
           </form>
@@ -138,12 +138,12 @@
         <div class="modal__container">
           <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">New post</h2>
-          <form action="" class="modal__form">
+          <form class="modal__form">
             <label for="post-image-input" class="modal__label">Image link
-              <input id="post-image-input" type="url" class="modal__input" placeholder="Place a link to the picture">
+              <input id="post-image-input" type="url" class="modal__input" placeholder="Place a link to the picture" required>
             </label>
             <label for="post-description-input" class="modal__label">Caption
-              <input id="post-description-input" type="text" class="modal__input" placeholder="Type your caption">
+              <input id="post-description-input" type="text" class="modal__input" placeholder="Type your caption" required>
             </label>
             <button type="submit" class="modal__save-btn">Save</button>
           </form>

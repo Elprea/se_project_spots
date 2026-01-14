@@ -21,17 +21,21 @@
 **Project features**
 
 ![Front page](/images/front_page.png)
+
 - Desktop View - 1320px or more
 
 ![Tablet view](/images/tablet_view.png)
+
 - Tablet View - 630px to 1320px
 
 ![Mobile view](/images/mobile_view.png)
+
 - Mobile View - 630px or less
 
 **Github link**
 
 - [Link to Github project](https://github.com/Elprea/se_project_spots)
+- [Link to Live site](https://elprea.github.io/se_project_spots/)
 
 **Project pitch**
 
