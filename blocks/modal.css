@@ -10,7 +10,7 @@
   visibility: hidden;
   transition:
     opacity 0.5s linear,
-    visibility 0s linear 0.5s;
+    visibility 0.5s linear;
   background-color: #00000080;
   position: fixed;
   top: 0;
@@ -105,12 +105,15 @@
   cursor: pointer;
 }
 
+.modal__save-btn:hover {
+  opacity: 0.7;
+}
+
 .modal__container_type_image {
   max-width: none;
   max-height: none;
   background-color: transparent;
   box-shadow: none;
-  display: flex;
   flex-direction: column;
   position: relative;
   width: fit-content;
@@ -130,7 +133,8 @@
   background-image: url("../images/close-icon-white.svg");
   width: 40px;
   height: 40px;
-  right: -12.57px;
+  top: 0;
+  right: -32px;
 }
 
 .modal__image-caption {
@@ -144,6 +148,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .modal__title {
     font-size: 20px;
     margin: 10px 0 24px;
