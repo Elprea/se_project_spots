@@ -89,6 +89,14 @@
   color: #2121214d;
 }
 
+.moda__input:hover {
+  border: 1px solid rgb(33, 33, 33);
+}
+
+.modal__input_style_error {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
 .modal__error {
   display: block;
   color: red;
@@ -114,6 +122,12 @@
 
 .modal__save-btn:hover {
   opacity: 0.7;
+}
+
+.modal__save-btn:disabled {
+  background-color: #212121;
+  opacity: 0.5;
+  cursor: default;
 }
 
 .modal__container_type_image {
