@@ -59,7 +59,7 @@ const viewImageCaptionEl = viewImageModal.querySelector(
 const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");
 
-const cardSubmitBtn = document.querySelector(".modal__button");
+const cardSubmitBtn = newPostForm.querySelector(".modal__button");
 const cardTemplate = document
   .querySelector("#card-template")
   .content.querySelector(".card");
@@ -67,6 +67,18 @@ const cardsList = document.querySelector(".cards__list");
 
 function openModal(modal) {
   modal.classList.add("modal_is-opened");
+
+  document.addEventListener("click", function (event) {
+    if (event.target.classList.contains("modal_is-opened")) {
+      closeModal(modal);
+    }
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      closeModal(modal);
+    }
+  });
 }
 
 function closeModal(modal) {
