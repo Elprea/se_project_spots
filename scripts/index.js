@@ -65,24 +65,30 @@ const cardTemplate = document
   .content.querySelector(".card");
 const cardsList = document.querySelector(".cards__list");
 
+function handleEscape(event){
+  if (event.key === "Escape"){
+    closeModal(document.querySelector(".modal_is-opened"));
+  }
+}
+
+function handleClickOutside(event){
+  if(event.target.classList.contains("modal_is-opened")){
+    closeModal(document.querySelector(".modal_is-opened"));
+  }
+}
+
 function openModal(modal) {
   modal.classList.add("modal_is-opened");
 
-  document.addEventListener("click", function (event) {
-    if (event.target.classList.contains("modal_is-opened")) {
-      closeModal(modal);
-    }
-  });
-
-  document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
-      closeModal(modal);
-    }
-  });
+  document.addEventListener("click", handleClickOutside);
+  document.addEventListener("keydown", handleEscape);
 }
 
 function closeModal(modal) {
   modal.classList.remove("modal_is-opened");
+
+  document.removeEventListener("click", handleClickOutside);
+  document.removeEventListener("keydown", handleEscape);
 }
 
 editProfileMainBtn.addEventListener("click", function () {
