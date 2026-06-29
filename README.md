@@ -39,7 +39,9 @@
 
 **Project pitch**
 
+Check out these videos, where I describe my project and some challenges I faced while building it:
 - [Link to project pitch](https://www.loom.com/share/6d4bf3fb1d93449c9b8c969ac736b3ce)
+- [Link to project pitch](https://www.loom.com/share/bd496420813f45b6a49b87a3456d98d9)
 
 **Figma**
 
